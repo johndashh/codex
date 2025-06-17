@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="OrkideMIDI" name="OrkideMIDI" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.example.OrkideMIDI" displaySplashScreen="0"
+              reportAppUsage="0" jucerFormatVersion="1" cppLanguageStandard="17">
+  <MAINGROUP id="V6z0lh" name="OrkideMIDI">
+    <GROUP id="YCf1MS" name="Source">
+      <FILE id="Main.cpp" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="MainComponent.h" name="MainComponent.h" compile="0" resource="0"
+            file="Source/MainComponent.h"/>
+      <FILE id="MainComponent.cpp" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="ChordEngine.h" name="ChordEngine.h" compile="0" resource="0"
+            file="Source/ChordEngine.h"/>
+      <FILE id="ChordEngine.cpp" name="ChordEngine.cpp" compile="1" resource="0"
+            file="Source/ChordEngine.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022" platformName="x64" os="windows"
+            useStandardRuntimePaths="1" cppLanguageStandard="17">
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_devices" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
